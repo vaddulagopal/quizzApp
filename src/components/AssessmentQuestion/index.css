@@ -1,0 +1,17 @@
+.return-home-btn {
+  display: flex;
+  align-items: center;
+  background-color: #063552;
+  padding: 15px;
+  font-size: 15px;
+  color: #ffffff;
+  height: 30px;
+  width: 80px;
+  border-radius: 3px;
+  border: 0px;
+  text-align: center;
+  margin-top: 20px;
+}
+.hone-link {
+  text-decoration: none;
+}

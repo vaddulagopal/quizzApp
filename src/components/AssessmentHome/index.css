@@ -1,0 +1,31 @@
+.select-option {
+  font-size: 13px;
+  font-weight: 500;
+  height: 40px;
+}
+.quiz-name {
+  font-size: 25px;
+  font-family: "serif";
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .quiz-name {
+    font-size: 35px;
+  }
+  .select-option {
+    font-size: 15px;
+  }
+}
+@media (min-width: 1440px) {
+  .quiz-name {
+    font-size: 50px;
+  }
+}
+.start-btn {
+  margin-top: 15px;
+  height: 40px;
+  width: 150px;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 15px;
+}

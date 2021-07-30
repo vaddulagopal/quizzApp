@@ -1,0 +1,49 @@
+.question {
+  width: 80vw;
+  font-size: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 15px;
+}
+@media (min-width: 768px) {
+  .question {
+    font-size: 25px;
+    width: 60vw;
+  }
+}
+.option {
+  width: 80vw;
+  margin-bottom: 15px;
+  border: 0px;
+  shadow: 1px;
+  border-radius: 5px;
+}
+@media (min-width: 768px) {
+  .option {
+    width: 40vw;
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: "roboto";
+    font-weight: 500;
+  }
+}
+.options-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+.next-btn {
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .next-btn {
+    margin-right: 15vw;
+  }
+}
+@media (min-width: 1440) {
+  .next-btn {
+    margin-right: 5vw;
+  }
+}

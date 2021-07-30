@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import AssessmentHome from "./components/AssessmentHome";
+import AssessmentQuestion from "./components/AssessmentQuestion";
+import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
+const App = () => (
+  <div className="bg-primary vh-100 d-flex flex-col justify-content-center text-center align-items-center">
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={AssessmentHome} />
+        <Route exact path="/category/:id" component={AssessmentQuestion} />
+      </Switch>
+    </BrowserRouter>
+  </div>
+);
 export default App;
