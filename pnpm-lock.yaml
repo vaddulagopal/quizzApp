@@ -2,6 +2,7 @@ dependencies:
   '@testing-library/jest-dom': 5.14.1
   '@testing-library/react': 11.2.7_react-dom@17.0.2+react@17.0.2
   '@testing-library/user-event': 12.8.3
+  bootstrap: 5.0.2
   express: 4.17.1
   react: 17.0.2
   react-bootstrap: 1.6.1_react-dom@17.0.2+react@17.0.2
@@ -3435,6 +3436,12 @@ packages:
     dev: false
     resolution:
       integrity: sha1-aN/1++YMUes3cl6p4+0xDcwed24=
+  /bootstrap/5.0.2:
+    dev: false
+    peerDependencies:
+      '@popperjs/core': ^2.9.2
+    resolution:
+      integrity: sha512-1Ge963tyEQWJJ+8qtXFU6wgmAVj9gweEjibUdbmcCEYsn38tVwRk8107rk2vzt6cfQcRr3SlZ8aQBqaD8aqf+Q==
   /brace-expansion/1.1.11:
     dependencies:
       balanced-match: 1.0.2
@@ -12758,6 +12765,7 @@ specifiers:
   '@testing-library/jest-dom': ^5.14.1
   '@testing-library/react': ^11.2.7
   '@testing-library/user-event': ^12.8.3
+  bootstrap: ^5.0.2
   express: ^4.17.1
   react: ^17.0.2
   react-bootstrap: ^1.6.1
