@@ -1,7 +1,6 @@
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import AssessmentHome from "./components/AssessmentHome";
 import AssessmentQuestion from "./components/AssessmentQuestion";
-import "./App.css";
 
 const App = () => (
   <div className="bg-primary vh-100 d-flex flex-col justify-content-center text-center align-items-center">
